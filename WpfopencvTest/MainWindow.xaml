@@ -24,6 +24,10 @@
         <StackPanel Grid.ColumnSpan="2"
                     HorizontalAlignment="Right"
                     Orientation="Horizontal">
+            <Button x:Name="btnConnect"
+                    Width="80"
+                    Margin="10,0"
+                    Content="Connect" Click="btnConnect_Click"/>
             <Button
                 x:Name="btnStart"
                 Width="80"
